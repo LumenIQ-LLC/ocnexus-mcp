@@ -1,0 +1,17 @@
+{
+  "mcpServers": {
+    "ocnexus-forge": {
+      "url": "https://mcp.ocnexus.dev/subscriber",
+      "auth": {
+        "CLIENT_ID": "grok-subscriber",
+        "scopes": [
+          "ocn:profile:read",
+          "ocn:repo:read",
+          "ocn:forge:read",
+          "ocn:forge:submit",
+          "ocn:usage:read"
+        ]
+      }
+    }
+  }
+}

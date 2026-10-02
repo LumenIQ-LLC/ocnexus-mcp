@@ -1,0 +1,12 @@
+{
+  "name": "ocnexus-mcp",
+  "version": "1.0.0",
+  "description": "OCNexus MCP for subscribers: Forge reviews, findings, run status, and credit usage. Sign in with your OCNexus account.",
+  "author": {
+    "name": "OCNexus (by LumenIQ)"
+  },
+  "homepage": "https://ocnexus.dev",
+  "repository": "https://github.com/LumenIQ-LLC/ocnexus-mcp",
+  "logo": "https://ocnexus.dev/favicon.svg",
+  "keywords": ["ocnexus", "mcp", "forge", "grok-bot", "lumeniq"]
+}
