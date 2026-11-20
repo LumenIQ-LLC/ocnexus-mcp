@@ -14,7 +14,6 @@ With an OCNexus subscription, your MCP client can:
 - List the repositories your account is authorized to work on.
 - Submit an authorized repository to Forge.
 - Check Forge run status, findings and run history.
-- Show your credit usage.
 
 ## Requirements
 
@@ -30,7 +29,7 @@ https://mcp.ocnexus.dev/subscriber
 ```
 
 - **Cursor:** this repository is packaged as a Cursor plugin (`.cursor-plugin/plugin.json`).
-- **Other MCP clients:** use the server entry in `mcp.json`, or add the URL above as a remote MCP server in your client.
+- **Other MCP clients:** use the server entry in `mcp.json` (client id `grok-subscriber`), or add the URL above as a remote MCP server in your client.
 
 On first use, sign in with your OCNexus account and approve the requested permissions.
 
@@ -42,9 +41,9 @@ On first use, sign in with your OCNexus account and approve the requested permis
 | `ocn:repo:read` | List the repositories your account is authorized for. |
 | `ocn:forge:read` | Read Forge run status, findings and run history. |
 | `ocn:forge:submit` | Submit an authorized repository to Forge. |
-| `ocn:usage:read` | Read your credit usage. |
+| `ocn:usage:read` | Reserved for usage reporting. No tool uses it yet. |
 
-Each permission is granted to your account when you sign in. Your client only sees the tools your permissions allow.
+Each permission is granted when you approve it at sign-in. Your client only lists the tools that your approved permissions allow.
 
 ## Security
 
